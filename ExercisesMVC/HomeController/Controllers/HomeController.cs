@@ -22,7 +22,8 @@ namespace HomeController.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page.ererrr";
+            Console.WriteLine("dffhh");
 
             return View();
         }
